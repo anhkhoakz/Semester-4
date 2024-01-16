@@ -1,16 +1,16 @@
 # Files
-*.pdf
-*.pptx
-*.png
-*.jpg
+.DS_Store
 *.doc
 *.docx
-*.zip
+*.jpg
+*.pdf
+*.png
+*.pptx
 *.rar
 *.xlsx
+*.zip
 *.*.un~
-.DS_Store
 
-# Directories
-File bài làm mẫu các môn kỹ năng/
-TRINH BAY BAO CAO/
+# Folders
+File bài làm mẫu các môn kỹ năng
+TRINH BAY BAO CAO
