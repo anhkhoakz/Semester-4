@@ -1,6 +1,6 @@
 import cv2
 
-image =cv2.imread('imgs/fruits.png')
+image = cv2.imread("imgs/fruits.png")
 
 B, G, R = cv2.split(image)
 
