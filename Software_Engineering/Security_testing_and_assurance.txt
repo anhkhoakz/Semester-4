@@ -1,0 +1,28 @@
+Anderson 2008 explains the verification and validation proccesses for web-based systems is very difficult to carry out, but it's increasingly imoprtant.
+
+2 reasons why security testing is difficult:
+1. Security requirements specify what should not happen, making it challenging to prove the absence of unwanted behavior, leaving room for potential vulnerabilities even after testing.
+2. Intelligent attackers actively seek and exploit system vulnerabilities, experimenting with unconventional actions, sharing discoveries in online forums, and utilizing a thriving malware market.
+
+**Import the security checklist on page 403**
+
+Attackers exploit vulnerabilities by challenging system developers' assumptions, using software tools to analyze the system over time, potentially having more time than system test engineers dedicated solely to finding weaknesses.
+
+Essential methods to chekc and analyze the security of an application system:
+1. **Experience-based testing** involves analyzing the system against known types of attacks, such as SQL poisoning or buffer overflow errors, using test cases or source code examination. Checklists of known security problems, including questions on adherence to security guidelines, can aid in this process.
+2. **Penetration testing** involves leveraging external experience to assess an application system's security. Teams aim to breach system security by simulating attacks, relying on their ingenuity to discover novel vulnerabilities. Team members are required to possess prior experience in security testing and identifying weaknesses in systems.
+3. **Tool-based analysis**, employing security tools like password checkers and static analysis, is an extension of experience-based validation. This approach quickly guides testing teams to potential errors and vulnerabilities, allowing for direct fixes or identification of tests needed to assess risks. Static analysis tools, such as Microsoft's routine use and Hewlett-Packard's Fortify for checking Java programs, exemplify this effective security checking approach.
+4. **Formal verification** entails making mathematical arguments to demonstrate a program's conformity to its specification. While Hall and Chapman demonstrated its feasibility for security over a decade ago, formal verification is not widely adopted due to the need for specialist expertise and its potential lack of cost-effectiveness compared to static analysis.
+
+## Summary
+Security testing is time-consuming, often constrained by limited time. Therefore, a risk-based approach is crucial, concentrating on the most significant risks identified for the system. Utilizing an analysis of security risks can guide the testing process, involving testing against derived security requirements and attempting to break the system through alternative approaches that pose threats to system assets.
+
+## Key points
+- Security engineering focuses on how to develop and maintain software systems.
+- Security threats can be threats to a system or its data.
+- Security risk management involves assessing the losses to eliminate or reduce
+the losses.
+- Specify security requirements by identifying assets to protect and defining the use of security techniques and technology for their protection.
+- Designing a secure systems includes organizing the system structure and distributing the system assets.
+- Security design guidelines provide a basis for creating security review checklists.
+- Security validation is challenging due to the focus on preventing undesired events, compounded by the intelligence of attackers and their potential for extended probing beyond the allocated testing time.

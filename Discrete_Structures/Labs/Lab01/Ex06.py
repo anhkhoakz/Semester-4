@@ -1,6 +1,6 @@
 def operation(a):
     a = a.split()
-    firstNumber = int(a[0])
+    startNumber = int(a[0])
     secondNumber = int(a[2])
     operator = a[1]
 
@@ -13,7 +13,9 @@ def operation(a):
         "^": lambda x, y: x**y,
     }
 
-    return operators.get(operator, "Invalid parameter")(firstNumber, secondNumber)
+    return operators.get(operator, lambda x, y: "Invalid parameter")(
+        startNumber, secondNumber
+    )
 
 
 print(operation("1 + 2"))

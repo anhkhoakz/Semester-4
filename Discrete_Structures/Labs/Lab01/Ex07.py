@@ -1,4 +1,4 @@
-def mSum(A, B):
+tde mSum(A, B):
     if len(A) != len(B) or len(A[0]) != len(B[0]):
         print("Matrix dimension error")
         return None
