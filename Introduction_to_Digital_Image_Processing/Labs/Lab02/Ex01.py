@@ -1,6 +1,6 @@
 import cv2 as cv
 import numpy as np
-import matplotlib.pyplot as plt
+# import matplotlib.pyplot as plt
 
 
 def showImg():
@@ -106,12 +106,12 @@ showYellowBaloon()
 
 
 # EX05: Extract the yellow balloon automatically by using HSV color space to extract only pixels of yellow color.
-hsvYellow = cv.cvtColor(yellowBaloon, cv.COLOR_BGR2HSV)
+hsvYellow = cv.cvtColor(img, cv.COLOR_BGR2HSV)
 lower = np.array([20, 100, 100])
 upper = np.array([30, 255, 255])
 
 mask = cv.inRange(hsvYellow, lower, upper)
-yellowBaloon = cv.bitwise_and(yellowBaloon, yellowBaloon, mask=mask)
+yellowBaloon = cv.bitwise_and(img, img, mask=mask)
 
 showYellowBaloon()
 
@@ -139,13 +139,7 @@ rotatedYellowBaloon = cv.warpAffine(
     (yellowBaloon_rgb.shape[1], yellowBaloon_rgb.shape[0]),
 )
 
-fig, axs = plt.subplots(1, 1, figsize=(5, 5))
 
-axs.imshow(rotatedYellowBaloon)
-axs.set_title("Rotated")
-
-axs.set_xticks([])
-axs.set_yticks([])
-
-plt.tight_layout()
-plt.show()
+cv.imshow("Rotated", rotatedYellowBaloon)
+cv.waitKey(0)
+cv.destroyAllWindows()
