@@ -1,4 +1,6 @@
 use master
+GO
+drop database Internship_Management
 go
 create database Internship_Management
 GO
@@ -32,11 +34,11 @@ create table StudentProject
 
 INSERT into Students
 VALUES
-    ('SV01', 'Tran Thanh Tram', 'Sai Gon', '1998-03-23', 8.5),
-    ('SV02', 'Nguyen Hong Linh', 'Thanh Hoa', '2000-01-20', 9.0),
-    ('SV03', 'Tran Thanh Phuoc', 'Tien Giang', '2001-07-12', 7.5),
-    ('SV04', 'Nguyen Minh Hai', 'Nghe An', '1993-02-28', 7.0),
-    ('SV05', 'Tran Thi Hong Nhung', 'Kien Giang', '1998-07-15', 9.0);
+    ('SV01', N'Tran Thanh Tram', 'Sai Gon', '1998-03-23', 8.5),
+    ('SV02', N'Nguyen Hong Linh', 'Thanh Hoa', '2000-01-20', 9.0),
+    ('SV03', N'Tran Thanh Phuoc', 'Tien Giang', '2001-07-12', 7.5),
+    ('SV04', N'Nguyen Minh Hai', 'Nghe An', '1993-02-28', 7.0),
+    ('SV05', N'Tran Thi Hong Nhung', 'Kien Giang', '1998-07-15', 9.0);
 
 
 Insert into Project

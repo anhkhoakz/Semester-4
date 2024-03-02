@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Lab02_Shift04")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+128e645e756b34d6b8190a885c425c419f876f12")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+25f0d2f642018dc1a256dcf64c9664389c3655f4")]
 [assembly: System.Reflection.AssemblyProductAttribute("Lab02_Shift04")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Lab02_Shift04")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

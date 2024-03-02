@@ -20,7 +20,7 @@ namespace Lab02_Shift04
         private void Form1_Load(object sender, EventArgs e)
         {
             // string s = "initial catalog = Internship_Management; data source = localhost; integrated security = true";
-            String s = "server = 172.20.10.2; database = Internship_Management; uid = sa; pwd = Gt24AUzfUpJZ2PKh6eZx";
+            String s = "server = 172.16.97.151; database = Internship_Management; uid = sa; pwd = Gt24AUzfUpJZ2PKh6eZx";
 
             cn = new SqlConnection(s);
             cn.Open();
