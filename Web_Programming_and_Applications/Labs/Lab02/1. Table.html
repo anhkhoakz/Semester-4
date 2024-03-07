@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        /** Gới ý màu
+                + tiêu đề: #388e3c
+                + Viền bảng: #b00c2d
+                + Dòng header: #5f52ab
+                + Lunch và lab: #ffefb3
+                + Empty: #e0e0e0
+         */
+        body {
+            font-size: 1.5em;
+        }
+
+        table tr:nth-child(1) td:not(:nth-child(4)) {
+            background-color: #5f52ab;
+            color: #ffffff;
+        }
+
+        table tr:nth-child(1) td:nth-child(4) {
+            background-color: #ffefb3;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+
+        table tr:nth-child(2) td:nth-child(4),
+        table tr:nth-child(8) td:nth-child(2),
+        table tr:nth-child(8) td:nth-child(3) {
+            background-color: #e0e0e0;
+        }
+
+        table tr:nth-child(3) td:nth-child(2),
+        table tr:nth-child(6) td:nth-child(2),
+        table tr:nth-child(7) td:nth-child(4) {
+            background-color: #ffefb3;
+        }
+
+        table td:nth-child(1) {
+            font-weight: bold;
+        }
+
+        h3 {
+            margin: 0 auto;
+            text-align: center;
+            text-transform: uppercase;
+            /* color: ; */
+        }
+
+        table {
+            margin: auto;
+            text-align: center;
+            border-collapse: collapse;
+            border: 3px dashed #b00c2d;
+            font-size: 80%;
+        }
+
+        table tr,
+        table td {
+            padding: 0.5em;
+        }
+
+        tbody tr:nth-child(2) td:nth-child(4):hover,
+        tbody tr:nth-child(8) td:nth-child(2):hover,
+        tbody tr:nth-child(8) td:nth-child(3):hover {
+            background-color: #8B8D8D;
+        }
+
+        tbody tr:nth-child(3) td:nth-child(2):hover,
+        tbody tr:nth-child(7) td:nth-child(4):hover,
+        tbody tr:nth-child(6) td:nth-child(2):hover,
+        tbody tr:nth-child(1) td:nth-child(4):hover {
+            background-color: #F3D773;
+        }
+
+        table tr:nth-child(1):hover td:not(:nth-child(4)) {
+            background-color: #342C78
+        }
+
+        tbody tr td:first-child:hover {
+            background-color: #390872;
+            transition: 0.5s;
+        }
+    </style>
+</head>
+
+<body>
+    <h3>student schedule</h3>
+    <table border="1">
+        <tbody>
+            <tr>
+                <td>Day/Period</td>
+                <td>I</td>
+                <td>II</td>
+                <td rowspan="8">lunch</td>
+                <td>III</td>
+                <td>IV</td>
+            </tr>
+            <tr>
+                <td>Monday</td>
+                <td>Math</td>
+                <td>Physics</td>
+                <td colspan="2" rowspan="2"></td>
+            </tr>
+            <tr>
+                <td>Tuesday</td>
+                <td colspan="2">LAB</td>
+            </tr>
+            <tr>
+                <td>Wednesday</td>
+                <td>History</td>
+                <td>Music</td>
+                <td colspan="2">SEMINAR</td>
+            </tr>
+            <tr>
+                <td>Thursday</td>
+                <td>Physical Education</td>
+                <td>Swimming</td>
+                <td>Chemistry</td>
+                <td>Biology</td>
+            </tr>
+            <tr>
+                <td>Friday</td>
+                <td colspan="2">LAB</td>
+                <td>Geography</td>
+                <td>Informatics</td>
+            </tr>
+            <tr>
+                <td>Saturday</td>
+                <td>Math</td>
+                <td>Physics</td>
+                <td colspan="2">LAB</td>
+            </tr>
+            <tr>
+                <td>Sunday</td>
+                <td colspan="2"></td>
+                <td></td>
+                <td>Homework</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
