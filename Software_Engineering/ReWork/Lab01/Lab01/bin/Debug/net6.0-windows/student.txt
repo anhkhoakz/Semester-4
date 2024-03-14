@@ -1,0 +1,4 @@
+SV01	Trần Thanh Trâm	Sài Gòn	23/03/1998	8.5
+SV02	Nguyễn Hồng Linh	Thanh Hóa	20/01/2000	9.0
+SV04	Nguyễn Minh Hải	Nghệ An	28/02/1993	7.0
+SV05	Trần Thị Hồng Nhung	Kiên Giang	15/07/1998	9.0

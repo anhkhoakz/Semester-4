@@ -1,0 +1,16 @@
+Z:\TDT_Semester_4\ReWork\Lab01\Lab01\bin\Debug\net6.0-windows\Lab01.exe
+Z:\TDT_Semester_4\ReWork\Lab01\Lab01\bin\Debug\net6.0-windows\Lab01.deps.json
+Z:\TDT_Semester_4\ReWork\Lab01\Lab01\bin\Debug\net6.0-windows\Lab01.runtimeconfig.json
+Z:\TDT_Semester_4\ReWork\Lab01\Lab01\bin\Debug\net6.0-windows\Lab01.dll
+Z:\TDT_Semester_4\ReWork\Lab01\Lab01\bin\Debug\net6.0-windows\Lab01.pdb
+Z:\TDT_Semester_4\ReWork\Lab01\Lab01\obj\Debug\net6.0-windows\Lab01.Form1.resources
+Z:\TDT_Semester_4\ReWork\Lab01\Lab01\obj\Debug\net6.0-windows\Lab01.csproj.GenerateResource.cache
+Z:\TDT_Semester_4\ReWork\Lab01\Lab01\obj\Debug\net6.0-windows\Lab01.GeneratedMSBuildEditorConfig.editorconfig
+Z:\TDT_Semester_4\ReWork\Lab01\Lab01\obj\Debug\net6.0-windows\Lab01.AssemblyInfoInputs.cache
+Z:\TDT_Semester_4\ReWork\Lab01\Lab01\obj\Debug\net6.0-windows\Lab01.AssemblyInfo.cs
+Z:\TDT_Semester_4\ReWork\Lab01\Lab01\obj\Debug\net6.0-windows\Lab01.csproj.CoreCompileInputs.cache
+Z:\TDT_Semester_4\ReWork\Lab01\Lab01\obj\Debug\net6.0-windows\Lab01.dll
+Z:\TDT_Semester_4\ReWork\Lab01\Lab01\obj\Debug\net6.0-windows\refint\Lab01.dll
+Z:\TDT_Semester_4\ReWork\Lab01\Lab01\obj\Debug\net6.0-windows\Lab01.pdb
+Z:\TDT_Semester_4\ReWork\Lab01\Lab01\obj\Debug\net6.0-windows\Lab01.genruntimeconfig.cache
+Z:\TDT_Semester_4\ReWork\Lab01\Lab01\obj\Debug\net6.0-windows\ref\Lab01.dll
