@@ -20,6 +20,10 @@
                - 11/12: 91.6666%
                - 12/12: 100%
         */
+        * {
+            box-sizing: border-box;
+        }
+
 
         body {
             padding: 0.3em;
@@ -32,7 +36,6 @@
             color: #ffffff;
             line-height: 5em;
             background-color: #15382A;
-            text-align: left;
             padding: 0.75em;
         }
 
@@ -67,28 +70,10 @@
             transition: 0.25s;
         }
 
-        .col-3 {
-            flex: 25%;
-            max-width: 25%;
-        }
-
-        .col-4 {
-            flex: 33.3333%;
-            max-width: 33.3333%;
-
-            color: #ffffff;
-            background-color: #36444E;
-            text-align: center;
-        }
-
-        .col-4:hover {
-            background-color: #162024;
-            transition: 0.25s;
-        }
-
-        .col-5 {
-            flex: 41.6666%;
-            max-width: 41.6666%;
+        [class*="col-"] {
+            float: left;
+            padding: 0.62em;
+            width: 100%;
         }
 
         .footer {
@@ -98,6 +83,7 @@
             justify-content: center;
             align-items: center;
             height: 6em;
+            padding: 0.75em;
         }
 
         .footer:hover {
@@ -105,53 +91,105 @@
             transition: 0.25s;
         }
 
-        @media (min-width: 1281px) {
+        @media all and (min-width: 64em) {
+            .col-1 {
+                width: 8.3333%;
+            }
 
-            /* CSS */
+            .col-2 {
+                width: 16.6666%;
+            }
 
+            .col-3 {
+                width: 25%;
+            }
+
+            .col-4 {
+                width: 33.3333%;
+            }
+
+            .col-5 {
+                width: 41.6666%;
+            }
+
+            .col-6 {
+                width: 50%;
+            }
+
+            .col-7 {
+                width: 58.3333%;
+            }
+
+            .col-8 {
+                width: 66.6666%;
+            }
+
+            .col-9 {
+                width: 75%;
+            }
+
+            .col-10 {
+                width: 83.3333%;
+            }
+
+            .col-11 {
+                width: 91.6666%;
+            }
+
+            .col-12 {
+                width: 100%;
+            }
         }
 
-        @media (min-width: 768px) and (max-width: 1024px) {
+        @media all and (width >=46.25em) and (width < 64em) {
+            .col-s-1 {
+                width: 8.3333%;
+            }
+
+            .col-s-2 {
+                width: 16.6666%;
+            }
 
             .col-s-3 {
-                flex: 100%;
-                max-width: 100%;
+                width: 25%;
             }
 
             .col-s-4 {
-                flex: 33.3333%;
-                max-width: 33.3333%;
+                width: 33.3333%;
+            }
+
+            .col-s-5 {
+                width: 41.6666%;
+            }
+
+            .col-s-6 {
+                width: 50%;
+            }
+
+            .col-s-7 {
+                width: 58.3333%;
             }
 
             .col-s-8 {
-                flex: 66.6666%;
-                max-width: 66.6666%;
+                width: 66.6666%;
+            }
+
+            .col-s-9 {
+                width: 75%;
+            }
+
+            .col-s-10 {
+                width: 83.3333%;
+            }
+
+            .col-s-11 {
+                width: 91.6666%;
             }
 
             .col-s-12 {
-                flex: 100%;
-                max-width: 100%;
+                width: 100%;
             }
         }
-
-        @media (min-width: 320px) and (max-width: 480px) {
-            .col-s-4 {
-                flex: 33.3333%;
-                max-width: 33.3333%;
-            }
-
-            .col-s-8 {
-                flex: 66.6666%;
-                max-width: 66.6666%;
-            }
-
-            .col-s-12 {
-                flex: 100%;
-                max-width: 100%;
-            }
-        }
-
-        Now
     </style>
 </head>
 
