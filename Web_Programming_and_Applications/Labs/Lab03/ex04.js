@@ -9,18 +9,18 @@ Requirements:
 */
 
 document.addEventListener("DOMContentLoaded", function () {
-    const imageList = document.getElementById("imageList");
-    const displayedImage = document.getElementById("displayedImage");
-    const imageInfo = document.getElementById("imageInfo");
-    const backButton = document.getElementById("backButton");
-    const slideshowButton = document.getElementById("slideshowButton");
-    const nextButton = document.getElementById("nextButton");
+    let imageList = document.getElementById("imageList");
+    let displayedImage = document.getElementById("displayedImage");
+    let imageInfo = document.getElementById("imageInfo");
+    let backButton = document.getElementById("backButton");
+    let slideshowButton = document.getElementById("slideshowButton");
+    let nextButton = document.getElementById("nextButton");
 
     let currentIndex = 0;
     let slideshowInterval;
 
     function updateImage() {
-        const selectedImage = imageList.options[currentIndex].value;
+        let selectedImage = imageList.options[currentIndex].value;
         displayedImage.src = "images/" + selectedImage;
         imageInfo.textContent =
             selectedImage +
