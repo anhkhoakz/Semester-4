@@ -9,15 +9,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
     function updateDisplayText() {
         let text = rawMessage.value;
-        let color = rawColor.value.toLowerCase();
-        let style = "";
+        let color = rawColor.value.toLowerCase(); // Using toLowerCase() to make sure the color is in lowercase
         let isBold = rawBold.checked;
         let isItalic = rawItalic.checked;
         let isUnderline = rawUnderline.checked;
-
-        if (isBold) style += "bold";
-        if (isItalic) style += "italic ";
-        if (isUnderline) style += "underline ";
 
         rawText.textContent =
             text ||
@@ -28,23 +23,24 @@ document.addEventListener("DOMContentLoaded", function () {
         rawText.style.textDecoration = isUnderline ? "underline" : "none";
     }
 
+    function restoreDefaults() {
+        rawMessage.value = "";
+        rawColor.value = "Black";
+        rawBold.checked = false;
+        rawItalic.checked = false;
+        rawUnderline.checked = false;
+        rawText.textContent =
+            "This text will be changed immediately when typing new text.";
+        updateDisplayText();
+    }
+
     rawMessage.addEventListener("input", updateDisplayText);
     rawColor.addEventListener("change", updateDisplayText);
     rawBold.addEventListener("change", updateDisplayText);
     rawItalic.addEventListener("change", updateDisplayText);
     rawUnderline.addEventListener("change", updateDisplayText);
 
-    restoreButton.addEventListener("click", function () {
-        rawMessage.value = "";
-        rawColor.value = "Black";
-        isBold = false;
-        isItalic = false;
-        isUnderline = false;
-        displayText = document.getElementById("display-text");
-        displayText.textContent =
-            "This text will be changed immediately when typing new text.";
-        updateDisplayText();
-    });
+    restoreButton.addEventListener("click", restoreDefaults);
 
     updateDisplayText();
 });
