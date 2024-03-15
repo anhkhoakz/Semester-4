@@ -1,26 +1,38 @@
+/*
+I split this file into multiple functions to make it easier to read and understand.
+*/
+
 function addStudent() {
-    let txtFirstName = document.getElementById("firstname");
-    let txtLastName = document.getElementById("lastname");
-    let txtEmail = document.getElementById("email");
+    let firstName = document.getElementById("firstname").value;
+    let lastName = document.getElementById("lastname").value;
+    let email = document.getElementById("email").value;
 
-    let firstName = txtFirstName.value;
-    let lastName = txtLastName.value;
-    let email = txtEmail.value;
+    let errorMessage = validateInput(firstName, lastName, email);
 
-    let errorMessage = "";
-
-    if (firstName == null || firstName === "") {
-        errorMessage = "Please enter your first name";
-    } else if (lastName == null || lastName === "") {
-        errorMessage = "Please enter your last name";
-    } else if (email == null || email === "") {
-        errorMessage = "Please enter your email";
-    } else if (!email.includes("@")) {
-        errorMessage = "Your email is not correct";
+    if (errorMessage !== "") {
+        alert(errorMessage);
+        return;
     }
 
-    let tbody = document.getElementsByTagName("tbody")[0];
+    appendStudentToTable(firstName, lastName, email);
+    resetForm();
+}
 
+function validateInput(firstName, lastName, email) {
+    if (!firstName) {
+        return "Please enter your first name";
+    } else if (!lastName) {
+        return "Please enter your last name";
+    } else if (!email) {
+        return "Please enter your email";
+    } else if (!email.includes("@")) {
+        return "Your email is not correct";
+    }
+    return "";
+}
+
+function appendStudentToTable(firstName, lastName, email) {
+    let tbody = document.getElementsByTagName("tbody")[0];
     let tr = document.createElement("tr");
 
     let td1 = document.createElement("td");
@@ -40,16 +52,14 @@ function addStudent() {
     tr.appendChild(td4);
 
     tbody.appendChild(tr);
+}
 
-    resetForm();
+function resetForm() {
+    document.querySelector("form").reset();
 }
 
 function removeStudent(aButton) {
     let td = aButton.parentElement;
     let tr = td.parentElement;
     tr.remove();
-}
-
-function resetForm() {
-    document.querySelector("form").reset();
 }
