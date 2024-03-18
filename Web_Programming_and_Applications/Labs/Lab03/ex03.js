@@ -35,7 +35,9 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     rawMessage.addEventListener("input", updateDisplayText);
+    // rawMessage.inputMode = updateDisplayText;
     rawColor.addEventListener("change", updateDisplayText);
+    // rawColor.onchange = updateDisplayText;
     rawBold.addEventListener("change", updateDisplayText);
     rawItalic.addEventListener("change", updateDisplayText);
     rawUnderline.addEventListener("change", updateDisplayText);
