@@ -34,15 +34,19 @@ document.addEventListener("DOMContentLoaded", function () {
         updateDisplayText();
     }
 
-    rawMessage.addEventListener("input", updateDisplayText);
-    // rawMessage.inputMode = updateDisplayText;
-    rawColor.addEventListener("change", updateDisplayText);
-    // rawColor.onchange = updateDisplayText;
-    rawBold.addEventListener("change", updateDisplayText);
-    rawItalic.addEventListener("change", updateDisplayText);
-    rawUnderline.addEventListener("change", updateDisplayText);
+    // rawMessage.addEventListener("input", updateDisplayText);
+    // rawColor.addEventListener("change", updateDisplayText);
+    // rawBold.addEventListener("change", updateDisplayText);
+    // rawItalic.addEventListener("change", updateDisplayText);
+    // rawUnderline.addEventListener("change", updateDisplayText);
+    // restoreButton.addEventListener("click", restoreDefaults);
 
-    restoreButton.addEventListener("click", restoreDefaults);
+    rawMessage.oninput = updateDisplayText;
+    rawColor.onchange = updateDisplayText;
+    rawBold.onchange = updateDisplayText;
+    rawItalic.onchange = updateDisplayText;
+    rawUnderline.onchange = updateDisplayText;
+    restoreButton.onclick = restoreDefaults;
 
     updateDisplayText();
 });
