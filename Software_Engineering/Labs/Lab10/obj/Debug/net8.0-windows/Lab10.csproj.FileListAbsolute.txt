@@ -1,0 +1,6 @@
+Z:\TDT_Semester_4\Software_Engineering\Labs\Lab10\obj\Debug\net8.0-windows\Lab10.Form1.resources
+Z:\TDT_Semester_4\Software_Engineering\Labs\Lab10\obj\Debug\net8.0-windows\Lab10.csproj.GenerateResource.cache
+Z:\TDT_Semester_4\Software_Engineering\Labs\Lab10\obj\Debug\net8.0-windows\Lab10.GeneratedMSBuildEditorConfig.editorconfig
+Z:\TDT_Semester_4\Software_Engineering\Labs\Lab10\obj\Debug\net8.0-windows\Lab10.AssemblyInfoInputs.cache
+Z:\TDT_Semester_4\Software_Engineering\Labs\Lab10\obj\Debug\net8.0-windows\Lab10.AssemblyInfo.cs
+Z:\TDT_Semester_4\Software_Engineering\Labs\Lab10\obj\Debug\net8.0-windows\Lab10.csproj.CoreCompileInputs.cache

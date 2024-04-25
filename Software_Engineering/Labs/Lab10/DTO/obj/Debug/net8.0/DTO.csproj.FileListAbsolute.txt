@@ -1,0 +1,11 @@
+Z:\TDT_Semester_4\Software_Engineering\Labs\Lab10\DTO\bin\Debug\net8.0\DTO.deps.json
+Z:\TDT_Semester_4\Software_Engineering\Labs\Lab10\DTO\bin\Debug\net8.0\DTO.dll
+Z:\TDT_Semester_4\Software_Engineering\Labs\Lab10\DTO\bin\Debug\net8.0\DTO.pdb
+Z:\TDT_Semester_4\Software_Engineering\Labs\Lab10\DTO\obj\Debug\net8.0\DTO.GeneratedMSBuildEditorConfig.editorconfig
+Z:\TDT_Semester_4\Software_Engineering\Labs\Lab10\DTO\obj\Debug\net8.0\DTO.AssemblyInfoInputs.cache
+Z:\TDT_Semester_4\Software_Engineering\Labs\Lab10\DTO\obj\Debug\net8.0\DTO.AssemblyInfo.cs
+Z:\TDT_Semester_4\Software_Engineering\Labs\Lab10\DTO\obj\Debug\net8.0\DTO.csproj.CoreCompileInputs.cache
+Z:\TDT_Semester_4\Software_Engineering\Labs\Lab10\DTO\obj\Debug\net8.0\DTO.dll
+Z:\TDT_Semester_4\Software_Engineering\Labs\Lab10\DTO\obj\Debug\net8.0\refint\DTO.dll
+Z:\TDT_Semester_4\Software_Engineering\Labs\Lab10\DTO\obj\Debug\net8.0\DTO.pdb
+Z:\TDT_Semester_4\Software_Engineering\Labs\Lab10\DTO\obj\Debug\net8.0\ref\DTO.dll

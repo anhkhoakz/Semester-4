@@ -1,0 +1,11 @@
+Z:\TDT_Semester_4\Exam2\BUS\bin\Debug\net8.0\BUS.deps.json
+Z:\TDT_Semester_4\Exam2\BUS\bin\Debug\net8.0\BUS.dll
+Z:\TDT_Semester_4\Exam2\BUS\bin\Debug\net8.0\BUS.pdb
+Z:\TDT_Semester_4\Exam2\BUS\obj\Debug\net8.0\BUS.GeneratedMSBuildEditorConfig.editorconfig
+Z:\TDT_Semester_4\Exam2\BUS\obj\Debug\net8.0\BUS.AssemblyInfoInputs.cache
+Z:\TDT_Semester_4\Exam2\BUS\obj\Debug\net8.0\BUS.AssemblyInfo.cs
+Z:\TDT_Semester_4\Exam2\BUS\obj\Debug\net8.0\BUS.csproj.CoreCompileInputs.cache
+Z:\TDT_Semester_4\Exam2\BUS\obj\Debug\net8.0\BUS.dll
+Z:\TDT_Semester_4\Exam2\BUS\obj\Debug\net8.0\refint\BUS.dll
+Z:\TDT_Semester_4\Exam2\BUS\obj\Debug\net8.0\BUS.pdb
+Z:\TDT_Semester_4\Exam2\BUS\obj\Debug\net8.0\ref\BUS.dll

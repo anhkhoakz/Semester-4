@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\SoftwareEngineering\\Lab08\\Lab08_Ex01\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{28CC23F5-27BC-4615-9A2C-0C1B8F04B378}|Lab08_Ex01\\Lab08_Ex01.csproj|e:\\softwareengineering\\lab08\\lab08_ex01\\lab08_ex01\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28CC23F5-27BC-4615-9A2C-0C1B8F04B378}|Lab08_Ex01\\Lab08_Ex01.csproj|solutionrelative:lab08_ex01\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28CC23F5-27BC-4615-9A2C-0C1B8F04B378}|Lab08_Ex01\\GUI.csproj|e:\\softwareengineering\\lab08\\lab08_ex01\\lab08_ex01\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28CC23F5-27BC-4615-9A2C-0C1B8F04B378}|Lab08_Ex01\\GUI.csproj|solutionrelative:lab08_ex01\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9753AB6F-826F-4103-B34A-A14F64C3ECD9}|BUS\\BUS.csproj|e:\\softwareengineering\\lab08\\lab08_ex01\\bus\\bus_student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9753AB6F-826F-4103-B34A-A14F64C3ECD9}|BUS\\BUS.csproj|solutionrelative:bus\\bus_student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86917F43-E4C3-4D6A-B043-55DA41853C7F}|DAL\\DAL.csproj|e:\\softwareengineering\\lab08\\lab08_ex01\\dal\\dal_student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86917F43-E4C3-4D6A-B043-55DA41853C7F}|DAL\\DAL.csproj|solutionrelative:dal\\dal_student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45E30680-0D04-4B64-89F2-470F831D0773}|DTO\\DTO.csproj|e:\\softwareengineering\\lab08\\lab08_ex01\\dto\\dto_student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45E30680-0D04-4B64-89F2-470F831D0773}|DTO\\DTO.csproj|solutionrelative:dto\\dto_student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86917F43-E4C3-4D6A-B043-55DA41853C7F}|DAL\\DAL.csproj|e:\\softwareengineering\\lab08\\lab08_ex01\\dal\\connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86917F43-E4C3-4D6A-B043-55DA41853C7F}|DAL\\DAL.csproj|solutionrelative:dal\\connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28CC23F5-27BC-4615-9A2C-0C1B8F04B378}|Lab08_Ex01\\GUI.csproj|e:\\softwareengineering\\lab08\\lab08_ex01\\lab08_ex01\\gui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{28CC23F5-27BC-4615-9A2C-0C1B8F04B378}|Lab08_Ex01\\GUI.csproj|solutionrelative:lab08_ex01\\gui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GUI.csproj",
+              "DocumentMoniker": "E:\\SoftwareEngineering\\Lab08\\Lab08_Ex01\\Lab08_Ex01\\GUI.csproj",
+              "RelativeDocumentMoniker": "Lab08_Ex01\\GUI.csproj",
+              "ToolTip": "E:\\SoftwareEngineering\\Lab08\\Lab08_Ex01\\Lab08_Ex01\\GUI.csproj",
+              "RelativeToolTip": "Lab08_Ex01\\GUI.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-09T10:05:36.243Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "E:\\SoftwareEngineering\\Lab08\\Lab08_Ex01\\Lab08_Ex01\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "Lab08_Ex01\\Form1.Designer.cs",
+              "ToolTip": "E:\\SoftwareEngineering\\Lab08\\Lab08_Ex01\\Lab08_Ex01\\Form1.Designer.cs",
+              "RelativeToolTip": "Lab08_Ex01\\Form1.Designer.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAEwCgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T10:44:39.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BUS_Student.cs",
+              "DocumentMoniker": "E:\\SoftwareEngineering\\Lab08\\Lab08_Ex01\\BUS\\BUS_Student.cs",
+              "RelativeDocumentMoniker": "BUS\\BUS_Student.cs",
+              "ToolTip": "E:\\SoftwareEngineering\\Lab08\\Lab08_Ex01\\BUS\\BUS_Student.cs",
+              "RelativeToolTip": "BUS\\BUS_Student.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwCsAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T10:36:11.5Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DAL_Student.cs",
+              "DocumentMoniker": "E:\\SoftwareEngineering\\Lab08\\Lab08_Ex01\\DAL\\DAL_Student.cs",
+              "RelativeDocumentMoniker": "DAL\\DAL_Student.cs",
+              "ToolTip": "E:\\SoftwareEngineering\\Lab08\\Lab08_Ex01\\DAL\\DAL_Student.cs",
+              "RelativeToolTip": "DAL\\DAL_Student.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAkwCUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T10:18:10.604Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Connection.cs",
+              "DocumentMoniker": "E:\\SoftwareEngineering\\Lab08\\Lab08_Ex01\\DAL\\Connection.cs",
+              "RelativeDocumentMoniker": "DAL\\Connection.cs",
+              "ToolTip": "E:\\SoftwareEngineering\\Lab08\\Lab08_Ex01\\DAL\\Connection.cs",
+              "RelativeToolTip": "DAL\\Connection.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T10:15:33.932Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DTO_Student.cs",
+              "DocumentMoniker": "E:\\SoftwareEngineering\\Lab08\\Lab08_Ex01\\DTO\\DTO_Student.cs",
+              "RelativeDocumentMoniker": "DTO\\DTO_Student.cs",
+              "ToolTip": "E:\\SoftwareEngineering\\Lab08\\Lab08_Ex01\\DTO\\DTO_Student.cs",
+              "RelativeToolTip": "DTO\\DTO_Student.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABQAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T10:08:46.814Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "E:\\SoftwareEngineering\\Lab08\\Lab08_Ex01\\Lab08_Ex01\\Form1.cs",
+              "RelativeDocumentMoniker": "Lab08_Ex01\\Form1.cs",
+              "ToolTip": "E:\\SoftwareEngineering\\Lab08\\Lab08_Ex01\\Lab08_Ex01\\Form1.cs",
+              "RelativeToolTip": "Lab08_Ex01\\Form1.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABUAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T10:05:47.398Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

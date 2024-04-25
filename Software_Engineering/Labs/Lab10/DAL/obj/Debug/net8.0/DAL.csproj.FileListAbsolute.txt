@@ -1,0 +1,15 @@
+Z:\TDT_Semester_4\Software_Engineering\Labs\Lab10\DAL\bin\Debug\net8.0\DAL.deps.json
+Z:\TDT_Semester_4\Software_Engineering\Labs\Lab10\DAL\bin\Debug\net8.0\DAL.dll
+Z:\TDT_Semester_4\Software_Engineering\Labs\Lab10\DAL\bin\Debug\net8.0\DAL.pdb
+Z:\TDT_Semester_4\Software_Engineering\Labs\Lab10\DAL\bin\Debug\net8.0\DTO.dll
+Z:\TDT_Semester_4\Software_Engineering\Labs\Lab10\DAL\bin\Debug\net8.0\DTO.pdb
+Z:\TDT_Semester_4\Software_Engineering\Labs\Lab10\DAL\obj\Debug\net8.0\DAL.csproj.AssemblyReference.cache
+Z:\TDT_Semester_4\Software_Engineering\Labs\Lab10\DAL\obj\Debug\net8.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+Z:\TDT_Semester_4\Software_Engineering\Labs\Lab10\DAL\obj\Debug\net8.0\DAL.AssemblyInfoInputs.cache
+Z:\TDT_Semester_4\Software_Engineering\Labs\Lab10\DAL\obj\Debug\net8.0\DAL.AssemblyInfo.cs
+Z:\TDT_Semester_4\Software_Engineering\Labs\Lab10\DAL\obj\Debug\net8.0\DAL.csproj.CoreCompileInputs.cache
+Z:\TDT_Semester_4\Software_Engineering\Labs\Lab10\DAL\obj\Debug\net8.0\DAL.csproj.CopyComplete
+Z:\TDT_Semester_4\Software_Engineering\Labs\Lab10\DAL\obj\Debug\net8.0\DAL.dll
+Z:\TDT_Semester_4\Software_Engineering\Labs\Lab10\DAL\obj\Debug\net8.0\refint\DAL.dll
+Z:\TDT_Semester_4\Software_Engineering\Labs\Lab10\DAL\obj\Debug\net8.0\DAL.pdb
+Z:\TDT_Semester_4\Software_Engineering\Labs\Lab10\DAL\obj\Debug\net8.0\ref\DAL.dll

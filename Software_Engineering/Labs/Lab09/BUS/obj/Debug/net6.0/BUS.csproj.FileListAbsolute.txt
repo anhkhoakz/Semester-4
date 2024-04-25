@@ -1,0 +1,17 @@
+Z:\TDT_Semester_4\Software_Engineering\Labs\Lab09\BUS\bin\Debug\net6.0\BUS.deps.json
+Z:\TDT_Semester_4\Software_Engineering\Labs\Lab09\BUS\bin\Debug\net6.0\BUS.dll
+Z:\TDT_Semester_4\Software_Engineering\Labs\Lab09\BUS\bin\Debug\net6.0\BUS.pdb
+Z:\TDT_Semester_4\Software_Engineering\Labs\Lab09\BUS\bin\Debug\net6.0\DAL.dll
+Z:\TDT_Semester_4\Software_Engineering\Labs\Lab09\BUS\bin\Debug\net6.0\DTO.dll
+Z:\TDT_Semester_4\Software_Engineering\Labs\Lab09\BUS\bin\Debug\net6.0\DAL.pdb
+Z:\TDT_Semester_4\Software_Engineering\Labs\Lab09\BUS\bin\Debug\net6.0\DTO.pdb
+Z:\TDT_Semester_4\Software_Engineering\Labs\Lab09\BUS\obj\Debug\net6.0\BUS.csproj.AssemblyReference.cache
+Z:\TDT_Semester_4\Software_Engineering\Labs\Lab09\BUS\obj\Debug\net6.0\BUS.GeneratedMSBuildEditorConfig.editorconfig
+Z:\TDT_Semester_4\Software_Engineering\Labs\Lab09\BUS\obj\Debug\net6.0\BUS.AssemblyInfoInputs.cache
+Z:\TDT_Semester_4\Software_Engineering\Labs\Lab09\BUS\obj\Debug\net6.0\BUS.AssemblyInfo.cs
+Z:\TDT_Semester_4\Software_Engineering\Labs\Lab09\BUS\obj\Debug\net6.0\BUS.csproj.CoreCompileInputs.cache
+Z:\TDT_Semester_4\Software_Engineering\Labs\Lab09\BUS\obj\Debug\net6.0\BUS.csproj.CopyComplete
+Z:\TDT_Semester_4\Software_Engineering\Labs\Lab09\BUS\obj\Debug\net6.0\BUS.dll
+Z:\TDT_Semester_4\Software_Engineering\Labs\Lab09\BUS\obj\Debug\net6.0\refint\BUS.dll
+Z:\TDT_Semester_4\Software_Engineering\Labs\Lab09\BUS\obj\Debug\net6.0\BUS.pdb
+Z:\TDT_Semester_4\Software_Engineering\Labs\Lab09\BUS\obj\Debug\net6.0\ref\BUS.dll

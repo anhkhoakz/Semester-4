@@ -1,0 +1,16 @@
+Z:\TDT_Semester_4\Software_Engineering\Labs\Lab08\obj\Debug\net6.0-windows\Lab08.Form1.resources
+Z:\TDT_Semester_4\Software_Engineering\Labs\Lab08\obj\Debug\net6.0-windows\GUI.csproj.GenerateResource.cache
+Z:\TDT_Semester_4\Software_Engineering\Labs\Lab08\obj\Debug\net6.0-windows\GUI.GeneratedMSBuildEditorConfig.editorconfig
+Z:\TDT_Semester_4\Software_Engineering\Labs\Lab08\obj\Debug\net6.0-windows\GUI.AssemblyInfoInputs.cache
+Z:\TDT_Semester_4\Software_Engineering\Labs\Lab08\obj\Debug\net6.0-windows\GUI.AssemblyInfo.cs
+Z:\TDT_Semester_4\Software_Engineering\Labs\Lab08\obj\Debug\net6.0-windows\GUI.csproj.CoreCompileInputs.cache
+Z:\TDT_Semester_4\Software_Engineering\Labs\Lab08\bin\Debug\net6.0-windows\GUI.exe
+Z:\TDT_Semester_4\Software_Engineering\Labs\Lab08\bin\Debug\net6.0-windows\GUI.deps.json
+Z:\TDT_Semester_4\Software_Engineering\Labs\Lab08\bin\Debug\net6.0-windows\GUI.runtimeconfig.json
+Z:\TDT_Semester_4\Software_Engineering\Labs\Lab08\bin\Debug\net6.0-windows\GUI.dll
+Z:\TDT_Semester_4\Software_Engineering\Labs\Lab08\bin\Debug\net6.0-windows\GUI.pdb
+Z:\TDT_Semester_4\Software_Engineering\Labs\Lab08\obj\Debug\net6.0-windows\GUI.dll
+Z:\TDT_Semester_4\Software_Engineering\Labs\Lab08\obj\Debug\net6.0-windows\refint\GUI.dll
+Z:\TDT_Semester_4\Software_Engineering\Labs\Lab08\obj\Debug\net6.0-windows\GUI.pdb
+Z:\TDT_Semester_4\Software_Engineering\Labs\Lab08\obj\Debug\net6.0-windows\GUI.genruntimeconfig.cache
+Z:\TDT_Semester_4\Software_Engineering\Labs\Lab08\obj\Debug\net6.0-windows\ref\GUI.dll
