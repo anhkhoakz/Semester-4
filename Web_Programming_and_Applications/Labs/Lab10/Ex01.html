@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+        />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Upload file</title>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css"
+            integrity="sha512-jnSuA4Ss2PkkikSOLtYs8BlYIeeIK1h99ty4YfvRPAlzr377vr3CXDb7sb7eEEBYjDtcYj+AjBH3FLv5uSJuXg=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <script
+            src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"
+            integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.8/umd/popper.min.js"
+            integrity="sha512-TPh2Oxlg1zp+kz3nFA0C5vVC6leG/6mm1z9+mA81MI5eaUVqasPLO8Cuk4gMF4gUfP5etR73rgU/8PNMsSesoQ=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        ></script>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.min.js"
+            integrity="sha512-ykZ1QQr0Jy/4ZkvKuqWn4iF3lqPZyij9iRv6sGqLRdTPkY69YX6+7wvVGmsdBbiIfN/8OdsI7HABjvEok6ZopQ=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        ></script>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col col-md-6 card my-5 p-3">
+                    <form
+                        method="post"
+                        action="http://localhost/Lab10/Ex01.php"
+                        enctype="multipart/form-data"
+                    >
+                        <div class="mb-3">
+                            <label for="fileName" class="form-label"
+                                >File Name</label
+                            >
+                            <input
+                                type="text"
+                                name="fileName"
+                                id="fileName"
+                                class="form-control"
+                                placeholder=""
+                            />
+                        </div>
+
+                        <div class="mb-3 custom-file">
+                            <label
+                                for="document custom-file-label"
+                                class="form-label"
+                                >Choose file</label
+                            >
+                            <input
+                                type="file"
+                                name="document"
+                                id="document"
+                                class="form-control custom-file-input"
+                                placeholder=""
+                            />
+                        </div>
+
+                        <div class="progress my-3">
+                            <div
+                                class="progress-bar"
+                                role="progressbar"
+                                style="width: 0%"
+                                aria-valuenow="0"
+                                aria-valuemin="0"
+                                aria-valuemax="100"
+                            ></div>
+                        </div>
+
+                        <div class="mb-3">
+                            <button class="btn btn-primary">Upload</button>
+                        </div>
+
+                        <div class="mb-3">
+                            <div
+                                class="alert alert-danger d-none"
+                                id="error-message"
+                            >
+                                This type of file is not allowed
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <script src="Ex01.js"></script>
+    </body>
+</html>

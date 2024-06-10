@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <body>
+        <form action="" onsubmit="return false">
+            <table>
+                <tr>
+                    <td>
+                        <label for="gender">Gender</label>
+                    </td>
+                    <td>
+                        <input type="radio" name="gender" value="male" /> Male
+                        <input type="radio" name="gender" value="female" />
+                        Female
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="faculty">Faculty</label>
+                    </td>
+                    <td>
+                        <select name="faculty" id="faculty">
+                            <option value="Please select faculty">
+                                Please select faculty
+                            </option>
+                            <option value="Faculty of Information Technology">
+                                Faculty of Information Technology
+                            </option>
+                            <option value="Faculty of Foreign Language">
+                                Faculty of Foreign Language
+                            </option>
+                            <option value="Faculty of Applied Science">
+                                Faculty of Applied Science
+                            </option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td></td>
+                    <td>
+                        <button onclick="validateInput()">Check</button>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td></td>
+                    <td>
+                        <textarea name="" id="" cols="30" rows="5"></textarea>
+                    </td>
+                </tr>
+            </table>
+        </form>
+        <script>
+            let form = document.querySelector("form");
+            function validateInput() {
+                let gender = form.querySelectorAll('input[name="gender"]');
+                let faculty = form.querySelector('select[name="faculty"]');
+                let textArea = form.querySelector("textarea");
+                let genderValue = "";
+                gender.forEach((input) => {
+                    if (input.checked) {
+                        genderValue = input.value;
+                    }
+                });
+
+                let facultyValue = faculty.value;
+
+                if (
+                    genderValue === null ||
+                    genderValue === "" ||
+                    genderValue === undefined ||
+                    facultyValue === "Please select faculty"
+                ) {
+                    textArea.value = "Not enough information";
+                    textArea.style.backgroundColor = "hotpink";
+                    return;
+                }
+
+                textArea.value = `Gender: ${genderValue}\nFaculty: ${facultyValue}`;
+                textArea.style.backgroundColor = "";
+            }
+        </script>
+    </body>
+</html>

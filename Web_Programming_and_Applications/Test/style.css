@@ -1,0 +1,32 @@
+table {
+    width: 50%;
+    border-collapse: collapse;
+    margin: 10em auto;
+}
+
+table tr td {
+    padding: 10px;
+    text-align: center;
+}
+
+table tr:first-child {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+table tr:nth-child(2),
+table tr:nth-child(6) {
+    font-weight: bold;
+}
+
+table tr:not(:first-child) td:nth-child(3) {
+    font-style: italic;
+}
+
+table tr:not(:first-child):nth-child(odd) {
+    background-color: azure;
+}
+
+table tr:not(:first-child):nth-child(odd):hover {
+    background-color: deepskyblue;
+}

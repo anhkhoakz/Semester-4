@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Shopping Cart</title>
+        <style>
+            table {
+                border-collapse: collapse;
+                width: 100%;
+                margin-bottom: 20px;
+            }
+
+            table,
+            th,
+            td {
+                border: 1px solid #ccc;
+            }
+
+            th,
+            td {
+                padding: 10px;
+                text-align: left;
+            }
+
+            th {
+                background-color: #f2f2f2;
+            }
+
+            .total-info {
+                font-weight: bold;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h2>Product List</h2>
+        <table id="product-table">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Price</th>
+                    <th>Description</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Product rows will be dynamically added here -->
+                <tr>
+                    <td>1</td>
+                    <td>Product 1</td>
+                    <td>10.00</td>
+                    <td>Description 1</td>
+                    <td><button>Add to cart</button></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Product 2</td>
+                    <td>15.00</td>
+                    <td>Description 2</td>
+                    <td><button>Add to cart</button></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>Shopping Cart</h2>
+        <table id="cart-table">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Total Price</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Cart rows will be dynamically added here -->
+            </tbody>
+        </table>
+
+        <div class="total-info">
+            <p style="color: blue">
+                Total Number of Products: <span id="total-quantity">0</span>
+            </p>
+            <p style="color: rgb(175, 5, 5)">
+                Total Price Overall: $<span id="total-price">0.00</span>
+            </p>
+        </div>
+
+        <script>
+            // Sample product data
+            const products = [
+                {
+                    id: 1,
+                    name: "Product 1",
+                    price: 10.0,
+                    description: "Description 1",
+                },
+                {
+                    id: 2,
+                    name: "Product 2",
+                    price: 15.0,
+                    description: "Description 2",
+                },
+                // Add more products as needed
+            ];
+
+            // Get the product table
+            function load_product_table() {
+                const product_table = document.getElementById("product-table");
+                const tbody = product_table.getElementsByTagName("tbody")[0];
+                tbody.innerHTML = "";
+                products.forEach((product) => {
+                    const row = tbody.insertRow();
+                    row.innerHTML = `
+                        <td>${product.id}</td>
+                        <td>${product.name}</td>
+                        <td>${product.price}</td>
+                        <td>${product.description}</td>
+                        <td><button onclick="add_to_cart(${product.id})">Add to cart</button></td>
+                    `;
+                });
+            }
+
+            load_product_table();
+
+            function add_to_cart(productID) {
+                const product = products.find((p) => p.id === productID);
+                if (!product) return;
+
+                const cart_table = document.getElementById("cart-table");
+                const tbody = cart_table.getElementsByTagName("tbody")[0];
+
+                const existingRow = Array.from(tbody.rows).find(
+                    (row) => row.cells[0].textContent === product.id.toString()
+                );
+
+                if (existingRow) {
+                    const quantityCell = existingRow.cells[3];
+                    const quantity = parseInt(quantityCell.textContent) + 1;
+                    quantityCell.textContent = quantity;
+
+                    const totalPriceCell = existingRow.cells[4];
+                    const totalPrice =
+                        parseFloat(totalPriceCell.textContent) + product.price;
+                    totalPriceCell.textContent = totalPrice.toFixed(2);
+                } else {
+                    const row = tbody.insertRow();
+                    row.innerHTML = `
+                        <td>${product.id}</td>
+                        <td>${product.name}</td>
+                        <td>${product.price}</td>
+                        <td>1</td>
+                        <td>${product.price}</td>
+                        <td><button onclick="remove_from_cart(${product.id})">Remove</button></td>
+                    `;
+                }
+
+                update_total_info();
+            }
+
+            function remove_from_cart(productID) {
+                const cart_table = document.getElementById("cart-table");
+                const tbody = cart_table.getElementsByTagName("tbody")[0];
+
+                const existingRow = Array.from(tbody.rows).find(
+                    (row) => row.cells[0].textContent === productID.toString()
+                );
+
+                if (existingRow) {
+                    const quantityCell = existingRow.cells[3];
+                    const quantity = parseInt(quantityCell.textContent) - 1;
+                    if (quantity > 0) {
+                        quantityCell.textContent = quantity;
+
+                        const product = products.find(
+                            (p) => p.id === productID
+                        );
+                        const totalPriceCell = existingRow.cells[4];
+                        const totalPrice =
+                            parseFloat(totalPriceCell.textContent) -
+                            product.price;
+                        totalPriceCell.textContent = totalPrice.toFixed(2);
+                    } else {
+                        tbody.removeChild(existingRow);
+                    }
+
+                    update_total_info();
+                }
+            }
+
+            function update_total_info() {
+                const totalQuantity = calculate_total_quantity();
+                const totalPrice = calculate_total_price();
+                document.getElementById("total-quantity").textContent =
+                    totalQuantity;
+                document.getElementById("total-price").textContent =
+                    totalPrice.toFixed(2);
+            }
+
+            function calculate_total_quantity() {
+                const cart_table = document.getElementById("cart-table");
+                const tbody = cart_table.getElementsByTagName("tbody")[0];
+                let totalQuantity = 0;
+                Array.from(tbody.rows).forEach((row) => {
+                    const quantityCell = row.cells[3];
+                    totalQuantity += parseInt(quantityCell.textContent);
+                });
+                return totalQuantity;
+            }
+
+            function calculate_total_price() {
+                const cart_table = document.getElementById("cart-table");
+                const tbody = cart_table.getElementsByTagName("tbody")[0];
+                let totalPrice = 0;
+                Array.from(tbody.rows).forEach((row) => {
+                    const totalPriceCell = row.cells[4];
+                    totalPrice += parseFloat(totalPriceCell.textContent);
+                });
+                return totalPrice;
+            }
+        </script>
+    </body>
+</html>

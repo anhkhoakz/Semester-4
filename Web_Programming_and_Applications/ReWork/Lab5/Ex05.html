@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Product Table</title>
+        <link rel="stylesheet" href="Ex05.css" />
+    </head>
+    <body>
+        <input
+            type="text"
+            id="searchBox"
+            placeholder="Search products..."
+            onkeyup="searchProducts()"
+        />
+        <table id="productTable">
+            <thead>
+                <tr>
+                    <th>Image</th>
+                    <th>Name</th>
+                    <th>Price</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Table rows will be dynamically added here -->
+                <tr>
+                    <td>
+                        <img
+                            src="https://cdn2.cellphones.com.vn/x/media/catalog/product/r/g/rgrg.jpg"
+                            loading="lazy"
+                        />
+                    </td>
+                    <td>iPhone 15 Pro Max 256GB | Chính hãng VN/A</td>
+                    <td>32,990,000</td>
+                    <td>
+                        iPhone 15 Pro Max thiết kế mới với chất liệu titan chuẩn
+                        hàng không vũ trụ bền bỉ, trọng lượng nhẹ, đồng thời
+                        trang bị nút Action và cổng sạc USB-C tiêu chuẩn giúp
+                        nâng cao tốc độ sạc.
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div id="noMatchMessage"></div>
+
+        <script src="Ex05.js"></script>
+    </body>
+</html>

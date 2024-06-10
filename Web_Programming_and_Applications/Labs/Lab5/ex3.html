@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Color Picker</title>
+        <style>
+            body,
+            html {
+                height: 100%;
+                margin: 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .container {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100%;
+            }
+
+            table {
+                border-collapse: collapse;
+                background-color: white;
+            }
+            td {
+                width: 30px;
+                height: 30px;
+                border: 1px solid black;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <table id="colorPicker">
+                <tbody></tbody>
+            </table>
+        </div>
+        <script>
+            function getRandomColor() {
+                const r = Math.floor(Math.random() * 256);
+                const g = Math.floor(Math.random() * 256);
+                const b = Math.floor(Math.random() * 256);
+                return `rgb(${r}, ${g}, ${b})`;
+            }
+
+            const table = document.getElementById("colorPicker");
+            const body = document.body;
+            let selectedColor = "";
+
+            for (let i = 0; i < 10; i++) {
+                const row = document.createElement("tr");
+                for (let j = 0; j < 10; j++) {
+                    const cell = document.createElement("td");
+                    const color = getRandomColor();
+                    cell.style.backgroundColor = color;
+                    cell.addEventListener("mouseover", function () {
+                        if (!selectedColor) {
+                            cell.style.backgroundColor = getRandomColor(); // Change color temporarily on mouseover
+                        }
+                    });
+                    cell.addEventListener("mouseout", function () {
+                        if (!selectedColor) {
+                            cell.style.backgroundColor = color; // Revert to original color on mouseout
+                        }
+                    });
+                    cell.addEventListener("click", function () {
+                        selectedColor = color;
+                        body.style.backgroundColor = selectedColor; // Change body background color on click
+                    });
+                    row.appendChild(cell);
+                }
+                table.appendChild(row);
+            }
+        </script>
+    </body>
+</html>

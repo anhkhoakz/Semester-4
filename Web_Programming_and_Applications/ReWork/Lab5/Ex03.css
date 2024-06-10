@@ -1,0 +1,14 @@
+#pannel {
+    width: 30em;
+    height: 30em;
+
+    margin: 2em auto;
+}
+
+#pannel div {
+    width: 3em;
+    height: 3em;
+    border: 0.05em solid blue;
+    float: left;
+    box-sizing: border-box;
+}

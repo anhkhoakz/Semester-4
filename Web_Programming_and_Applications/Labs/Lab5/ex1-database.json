@@ -1,0 +1,14 @@
+{
+  "students": [
+    {
+      "state": "Completed",
+      "id": "30a7"
+    },
+    {
+      "id": "25f1",
+      "name": "Khanh",
+      "age": "31",
+      "state": "Completed"
+    }
+  ]
+}

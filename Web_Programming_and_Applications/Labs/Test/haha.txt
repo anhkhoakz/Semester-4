@@ -1,0 +1,3 @@
+Đăng nhập: viết lẫn lộn thì tách riêng ra
+Sử dụng file json
+Bổ sung hoàn thiện tính năng đăng nhập: đăng nhập sai quá 3 lần thì block tài khoản
